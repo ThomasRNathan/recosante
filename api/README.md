@@ -8,13 +8,7 @@ Nous vous recommandons de commencer votre installation par le service indice pol
 
 Vous pouvez copier/coller le fichier `.env.example` vers un fichier `.env` ou bien adapter `.env.docker` si vous souhaitez utiliser docker
 
-Changez les variables `SECRET_KEY`, `AUTHENTICATOR_SECRET` `CAPABILITY_ADMIN_TOKEN` et `CAPABILITY_ADMIN_TOKEN` par une chaine de caractères générée de manière aléatoire. Commande
-
-```bash
-openssl rand -base64 48
-```
-
-Par exemple
+Changez les variables `SECRET_KEY`, `AUTHENTICATOR_SECRET`, `VAPID_PRIVATE_KEY` et `CAPABILITY_ADMIN_TOKEN` par une chaine de caractères générée de manière aléatoire. Commande `openssl rand -base64 48` par exemple.
 
 Pour `VAPID_PRIVATE_KEY` utilisez la commande
 

@@ -138,6 +138,14 @@ yarn
 
 Si vous souhaitez lancer le projet en local, nous vous invitons à installer tous ces binaires et à les avoir diponibles dans le `PATH` de votre terminal.
 
+### Lancer les services en local
+
+Merci de vous référer au `README.md` de chaque projet que vous souhaitez lancer en local. Gardez en mémoire que ces projets ont besoin d'autres services pour fonctionner (base de données, redis...). Afin de lancer en local le minimum nécessaire à l'exécution de chaque projet, vous pouvez utiliser la commande
+
+```bash
+yarn up
+```
+
 ### Lancer tous les services
 
 Tous les services peuvent être lancés via la commande
@@ -150,14 +158,6 @@ ou
 
 ```bash
 docker-compose up
-```
-
-### Lancer les services en local
-
-Merci de vous référer au `README.md` de chaque projet que vous souhaitez lancer en local. Gardez en mémoire que ces projets ont besoin d'autres services pour fonctionner (base de données, redis...). Afin de lancer en local le minimum nécessaire à l'exécution de chaque projet, vous pouvez utiliser la commande
-
-```bash
-yarn up
 ```
 
 ### Stopper les conteneurs
@@ -225,12 +225,7 @@ Il faut que les `.venv` des projets soient installés avec `poetry` pour que `vs
 
 ```json
 {
-  "isort.args": [
-    "--known-local-folder",
-    "ecosante",
-    "--known-local-folder",
-    "tests"
-  ]
+  "isort.args": ["--known-local-folder", "ecosante", "--known-local-folder", "tests"]
 }
 ```
 
