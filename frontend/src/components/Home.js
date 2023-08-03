@@ -29,7 +29,7 @@ export default function Home() {
           Nos <strong>articles santé</strong>
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsa
+          Lorema ipsum dolor sit amet consectetur adipisicing elit. Commodi ipsa
           aperiam at quod impedit adipisci quae! Qui deleniti itaque
           consequuntur, beatae perspiciatis voluptatibus deserunt eligendi autem
           commodi aut porro nulla.
