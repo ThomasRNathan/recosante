@@ -2,6 +2,7 @@
 title: "Quels sont les effets de la lumière bleue sur la santé ?"
 order: 38
 image: ../assets/images/quels-sont-les-effets-de-la-lumiere-bleue-sur-la-sante.jpg
+category: "Santé"
 bon_geste: "Éviter l’utilisation de tout écran à LED de téléphones, télévision, tablette, ordinateur avant le coucher et pendant la nuit."
 ---
 
