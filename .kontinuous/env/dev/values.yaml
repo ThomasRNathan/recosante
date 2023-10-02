@@ -3,6 +3,17 @@ global:
 
 pg:
   ~chart: pg
+  cnpg-cluster:
+    extensions:
+      # - postgis
+      # - postgis_topology
+      # - fuzzystrmatch
+      # - postgis_tiger_geocoder
+      - uuid-ossp
+      - citext
+      - pgcrypto
+      - hstore
+      - pg_stat_statements
 
 api:
   ~needs: [build-api, seed-db]
