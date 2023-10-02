@@ -4,18 +4,7 @@ global:
 pg:
   ~chart: pg
   cnpg-cluster:
-    extensions:
-      # - postgis
-      # - postgis_topology
-      # - fuzzystrmatch
-      # - postgis_tiger_geocoder
-      - uuid-ossp
-      - citext
-      - pgcrypto
-      - hstore
-      - pg_stat_statements
     postgresqlParameters:
-      shared_preload_libraries: pg_stat_statements
       pg_stat_statements.track: all
 
 api:
