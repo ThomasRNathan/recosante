@@ -14,6 +14,9 @@ pg:
       - pgcrypto
       - hstore
       - pg_stat_statements
+    postgresqlParameters:
+      shared_preload_libraries: pg_stat_statements
+      pg_stat_statements.track: all
 
 api:
   ~needs: [build-api, seed-db]
